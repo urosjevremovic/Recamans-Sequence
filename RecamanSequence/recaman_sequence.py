@@ -19,7 +19,7 @@ def write_sequence(num):
     """Write Recaman's sequence to a text file"""
     filename = "recaman.txt"
     with open(filename, mode="wt", encoding="utf-8") as f:
-        f.writelines(f"{r}\n" for r in islice(sequence(), num + 1))
+        f.writelines(f"{r}\n" for r in islice(sequence(), num))
 
 
 def main():
