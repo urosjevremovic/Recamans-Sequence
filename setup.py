@@ -19,7 +19,7 @@ After it is installed you can start it by simply typing in your terminal:
 from setuptools import setup
 
 setup(name='RecamanSequence',
-      version='0.1',
+      version='0.2',
       description='Iterate through Recaman\'s sequence up to a given'
                   'limit, where limit represent number of desired iterations',
       long_description=__doc__,
